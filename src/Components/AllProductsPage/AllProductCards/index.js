@@ -6,18 +6,12 @@ const AllProductCards = (props) => {
 
     const [allProducts, setAllProducts] = useState([]);
 
-    let apronCheckbox = document.querySelector('#Aprons');
-    let hatCheckbox = document.querySelector('#Hats');
-    let mugCheckbox = document.querySelector('#Mugs');
-    let shirtCheckbox = document.querySelector('#Shirts');
-
     const fetchData = async () => {
         const response = await fetch('http://localhost:3000/products');
 
         if (!response.ok) {
             throw new Error('Data could not be fetched');
         }
-
         return await response.json();
     }
 
@@ -31,44 +25,11 @@ const AllProductCards = (props) => {
             });
     }, []);
 
-    let aprons = [];
-    let hats = [];
-    let mugs = [];
-    let shirts = [];
-    let fred = [];
-    let bubbles = [];
-    let dolores = [];
-    let rex = [];
     let selectedProducts = allProducts;
-
-    for (let product of allProducts) {
-        if (product.category_id === 1) {
-            aprons.push(product);
-        } else if (product.category_id === 2) {
-            hats.push(product);
-        } else if (product.category_id === 3) {
-            mugs.push(product);
-        } else {
-            shirts.push(product);
-        }
-    }
-
-    for (let product of allProducts) {
-        if (product.character_id === 1) {
-            fred.push(product);
-        } else if (product.character_id === 2) {
-            bubbles.push(product);
-        } else if (product.character_id === 3) {
-            dolores.push(product);
-        } else {
-            rex.push(product);
-        }
-    }
 
     if (!checkboxState['Aprons']) {
             selectedProducts = selectedProducts.filter(product => {
                 return product.category_id !== 1
-
             })
     }
     if (!checkboxState['Hats']) {

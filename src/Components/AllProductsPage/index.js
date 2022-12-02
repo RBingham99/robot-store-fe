@@ -20,13 +20,10 @@ const ProductsPage = () => {
         let category = event.target.id;
         let newState = checkboxState;
         newState[category] = event.target.checked;
-        // setCheckboxState(Object.assign(Array.from(checkboxState), {[category]: !checkboxState[category] }));
         setCheckboxState((prevState) => {
             return {...prevState, ...newState};
         });
         }
-        // console.log(checkboxState);
-
 
     return (
         <div className="py-3 pe-3">

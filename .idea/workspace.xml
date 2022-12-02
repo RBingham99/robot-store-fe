@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bdb9634-9574-4d06-a2fa-1836ecf95efe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/ProductsPage/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AllProductCards/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AllProductCards/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CategoryList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CategoryList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ProductCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProductCard/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AllProductCards/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProductsPage/AllProductCards/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CategoryList/Checkbox/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProductsPage/CategoryList/Checkbox/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CategoryList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProductsPage/CategoryList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ProductCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ProductsPage/ProductCard/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/ProductsPage" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +66,8 @@
       <workItem from="1669826448431" duration="967000" />
       <workItem from="1669887373865" duration="3969000" />
       <workItem from="1669893473977" duration="3051000" />
-      <workItem from="1669905193966" duration="6990000" />
+      <workItem from="1669905193966" duration="7085000" />
+      <workItem from="1669972391006" duration="18011000" />
     </task>
     <servers />
   </component>

@@ -1,18 +1,7 @@
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const ProductCard = (props) => {
     const {product} = props;
-
-    const getProduct = () => {
-        const fetchData = async () => {
-            const response = await fetch('http://localhost:3000/products/');
-
-            if (!response.ok) {
-                throw new Error('Data could not be fetched');
-            }
-            return await response.json();
-        }
-    }
 
     return (
         <div>
